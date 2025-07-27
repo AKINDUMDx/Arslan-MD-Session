@@ -75,16 +75,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "ARSL~" + string_session;
+                        let md = "AKINDU-MD-" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 Arslan MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/Arslan-MD/Arslan_MD`; 
-                        await sock.sendMessage(sock.user.id, {
+                        let desc = `*📁 𝐓𝐇𝐈𝐒 𝐈𝐒 𝐘𝐎𝐔'𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 📁*\n\n*☵ 𝐃𝐎𝐍'𝐓 𝐒𝐇𝐀𝐑𝐄 𝐖𝐈𝐓𝐇 𝐀𝐍𝐘𝐎𝐍𝐄 !*\n\n> *☵ 𝐒𝐓𝐀𝐘 𝐖𝐈𝐓𝐇 𝐔𝐒 𝐀𝐍𝐃 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐆𝐑𝐎𝐔𝐏 🪀*`;
+                            await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Arslan-MD",
-thumbnailUrl: "https://files.catbox.moe/35oxel.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306",
+title: "AKINDU-MD",
+thumbnailUrl: "https://files.catbox.moe/wqp3y9.jpg",
+sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -93,14 +93,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 Arslan MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/Arslan-MD/Arslan_MD`;
+                            let desc = `*📁 𝐓𝐇𝐈𝐒 𝐈𝐒 𝐘𝐎𝐔'𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 📁*\n\n*☵ 𝐃𝐎𝐍'𝐓 𝐒𝐇𝐀𝐑𝐄 𝐖𝐈𝐓𝐇 𝐀𝐍𝐘𝐎𝐍𝐄 !*\n\n> *☵ 𝐒𝐓𝐀𝐘 𝐖𝐈𝐓𝐇 𝐔𝐒 𝐀𝐍𝐃 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐆𝐑𝐎𝐔𝐏 🪀*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Arslan-MD",
-thumbnailUrl: "https://files.catbox.moe/35oxel.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306",
+title: "AKINDU-MD",
+thumbnailUrl: "https://files.catbox.moe/wqp3y9.jpg",
+sourceUrl: "",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
